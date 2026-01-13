@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
           onPressed: () => context.go('/task-form'),
           label: const Text("New Task"),
         icon: const Icon(Icons.add),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.blueGrey,
         foregroundColor: Colors.white,
       ),
 
