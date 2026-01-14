@@ -30,9 +30,18 @@ class MyApp extends StatelessWidget {
         title: 'Task Manager',
         debugShowCheckedModeBanner: false,
         routerConfig: AppRouter.router,
+
+        themeMode: ThemeMode.light,
+
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
+          brightness: Brightness.light,
+          scaffoldBackgroundColor: Colors.grey[100],
+
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.lightBlue,
+            brightness: Brightness.light,
+          ),
         ),
       ),
     );

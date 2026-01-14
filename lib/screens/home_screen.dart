@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
     final completed = provider.completedTasks;
 
     return Scaffold(
-      backgroundColor: Colors.white10 ,
+      backgroundColor: Colors.white ,
       appBar: AppBar(
         title: Text("My Tasks" , style: GoogleFonts.poppins(fontWeight: FontWeight.bold),),
         backgroundColor: Colors.transparent,
